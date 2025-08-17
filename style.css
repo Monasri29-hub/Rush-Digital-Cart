@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+}
+/* Menu / Navigation Related CSS */
+nav{
+    display: flex;
+    background: #af4c81;
+}
+ul li{
+    list-style: none;
+    width: auto;
+    float: left;
+    padding: 5px 10px;
+}
+ul li a{
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+}
+ul li a:hover, ul li a.active{
+    color: #fff;
+}
+/* Form Related CSS */
+h1{
+    text-align: center;
+    color: #594caf;
+}
+h2{
+    text-align: center;
+    color: #4eaf4cb1;
+}
+form{
+    width: 30%;
+    padding-left: 35%;
+}
+form input{
+    width: 100%;
+    height: 30px;
+}
+form input[type="button"]{
+    width: 50%;
+    height: 30px;
+    background-color: rgb(234, 255, 0);
+}
+.center{
+    text-align: center;
+}
+/* Catelog Related CSS */
+.flex-cat{
+    display: flex;
+    background-color: rgb(255, 240, 246);
+    margin: 10px;
+    padding: 10px;
+}
+.product-info{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#add{
+    background: #af4c89;
+    padding: 5px 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+}
+#add:hover{
+    color: #000;
+}
+.grid-cat{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-cat .product-info{
+    background-color: aliceblue;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+.grid-cat .product-info img{
+    padding-left: 20%;
+}
+/* Cart Page Related CSS */
+.cart-data{
+    padding: 10px;
+}
+table{
+    border: 1px solid #ccc;
+    width: 100%;
+}
+thead{
+    background-color: #514caf;
+}
+td{
+    border: 1px solid #ccc;
+}
+#remove{
+    background: red;
+    padding: 5px 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+}
+td img{
+    width: 60px;
+}
+td input{
+    width: 30px;
+    height: 22px;
+}
+.text-center{
+    text-align: center;
+}
+@media (max-width: 576px) {
+    form{
+        width: 80%;
+        padding-left: 10%;
+    }
+} 
